@@ -1,0 +1,8 @@
+{
+  "short_name": "Colourisation Demo",
+  "name": "Final year project - Colourisation Demo",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
