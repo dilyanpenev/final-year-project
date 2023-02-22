@@ -42,19 +42,38 @@
 
             &__button {
                 h2 {
+                    position: relative;
                     font-family: $font-regular;
                     font-size: 1.5rem;
                     font-weight: 400;
+                    color: $dark-purple;
 
                     @media only screen and (min-device-width: 480px) {
                         font-size: 2rem;
                     }
-                }
 
-                &:hover {
-                    h2 {
+                    &:hover {
                         font-weight: 700;
                         cursor: pointer;
+                        color: $dark-purple;
+                    }
+
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        transform: scaleX(0);
+                        height: 2px;
+                        bottom: 0;
+                        left: 0;
+                        background-color: $dark-purple;
+                        transform-origin: bottom right;
+                        transition: transform 0.25s ease-out;
+                    }
+
+                    &:hover:after {
+                        transform: scaleX(1);
+                        transform-origin: bottom left;
                     }
                 }
             }
