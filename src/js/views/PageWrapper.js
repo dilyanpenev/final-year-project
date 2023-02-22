@@ -1,10 +1,11 @@
 import Header from '../components/Header'
+import { Outlet } from 'react-router-dom'
 
 function PageWrapper(props) {
     return (
         <div className='page-wrapper'>
             <Header />
-            {props.children}
+            <Outlet />
         </div>
     );
 }

@@ -1,4 +1,5 @@
 import logo from "../../assets/logo-placeholder.png";
+import { Link } from "react-router-dom";
 
 function Header(props) {
     return (
@@ -6,11 +7,15 @@ function Header(props) {
             <div className="header__spiral"></div>
             <div className="header__menubar">
                 <div className="header__menubar__logo">
-                    <img src={logo} alt="Colourisation logo" />
+                    <Link to="/">
+                        <img src={logo} alt="Colourisation logo" />
+                    </Link>
                 </div>
                 <div className="header__menubar__navigation">
                     <div className="header__menubar__navigation__button">
-                        <h2>Home</h2>
+                        <Link to="/">
+                            <h2>Home</h2>
+                        </Link>
                     </div>
                     <div className="header__menubar__navigation__button">
                         <h2>Demo</h2>

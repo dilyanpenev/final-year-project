@@ -1,6 +1,11 @@
 body {
     margin: 0;
     background-color: $white-smoke;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
 }
 
 .page-wrapper {

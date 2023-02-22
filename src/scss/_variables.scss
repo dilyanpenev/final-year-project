@@ -9,3 +9,14 @@ $sunglow: #ffcc33;
 $indigo: #660099;
 $black-olive: #2F3730;
 $dark-purple: #1B0029;
+
+// animations
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
