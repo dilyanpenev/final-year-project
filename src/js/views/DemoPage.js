@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import upload_icon from "../../assets/upload-icon.png";
 
 function DemoPage(props) {
     const [isFileUploaded, setFileUploaded] = useState(false);
+    const downloadRef = useRef(null);
+
+    const scrollToDownload = () => downloadRef.current.scrollIntoView({ behavior: "smooth" })
 
     return (
         <div className="demo-page">
@@ -15,7 +18,8 @@ function DemoPage(props) {
                     </div>
                 </div>
                 <div className="demo-page__upload__controls">
-                    <div className="button demo-page__upload__controls__submit">
+                    <div className="button demo-page__upload__controls__submit"
+                        onClick={scrollToDownload}>
                         <h3>COLOURISE</h3>
                     </div>
                     <div className="button demo-page__upload__controls__retry">
@@ -23,7 +27,7 @@ function DemoPage(props) {
                     </div>
                 </div>
             </div>
-            <div className="demo-page__result">
+            <div ref={downloadRef} className="demo-page__result">
                 <div className="display demo-page__result__image"></div>
                 <div className="button demo-page__result__download">
                     <h3>DOWNLOAD</h3>
