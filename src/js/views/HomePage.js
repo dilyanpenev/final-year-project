@@ -18,6 +18,7 @@ function HomePage(props) {
                 <h2>Acknowledgements</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis neque, laoreet in nisl non, pellentesque consequat est. Integer non tortor scelerisque, lobortis urna vel, finibus nulla. Quisque tempus orci tortor, ac porttitor massa eleifend sed. Praesent vehicula ultrices blandit. Duis id urna at nisi varius ultricies sit amet sit amet turpis. Aliquam imperdiet ullamcorper magna, sit amet convallis tortor facilisis vitae. Suspendisse vitae volutpat augue, et pretium purus. Duis vulputate turpis sed lobortis varius. Duis luctus consectetur orci, eget dignissim ipsum fringilla nec. Ut luctus lorem lacus.</p>
             </div>
+            <div className="home-page__colour-mix-3"></div>
         </div>
     );
 }

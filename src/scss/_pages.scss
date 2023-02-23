@@ -12,6 +12,7 @@ body {
     margin: 0 1rem;
     background-color: $white;
     height: 100%;
+    box-shadow: 10px 5px 10px $platinum, -10px 5px 10px $platinum;
 
     @media only screen and (min-device-width: 480px) {
         margin: 0 2rem;

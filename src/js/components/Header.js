@@ -18,7 +18,9 @@ function Header(props) {
                         </Link>
                     </div>
                     <div className="header__menubar__navigation__button">
-                        <h2>Demo</h2>
+                        <Link to="/demo">
+                            <h2>Demo</h2>
+                        </Link>
                     </div>
                     <div className="header__menubar__navigation__button">
                         <h2>About</h2>

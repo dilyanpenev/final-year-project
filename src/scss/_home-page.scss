@@ -122,4 +122,9 @@
         background-color: $indigo;
         color: $sunglow;
     }
+
+    &__colour-mix-3 {
+        height: 7.5vh;
+        background-image: linear-gradient($indigo, $platinum);
+    }
 }
