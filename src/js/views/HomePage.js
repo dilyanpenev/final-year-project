@@ -1,11 +1,15 @@
+import { Link } from "react-router-dom";
+
 function HomePage(props) {
     return (
         <div className="home-page">
             <div className="home-page__banner">
                 <h1>Colourise your black-and-white photos <br /> with the help of deep learning</h1>
-                <div className="home-page__banner__button">
-                    <h3>TRY IT</h3>
-                </div>
+                <Link to="/demo">
+                    <div className="home-page__banner__button">
+                        <h3>TRY IT</h3>
+                    </div>
+                </Link>
             </div>
             <div className="home-page__colour-mix-1"></div>
             <div className="home-page__description">
