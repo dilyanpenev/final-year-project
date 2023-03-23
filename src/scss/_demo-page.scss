@@ -112,6 +112,12 @@
         &__image {
             background-color: $sunglow;
             border: 5px solid $indigo;
+            display: flex;
+            justify-content: center;
+
+            img {
+                margin: 2rem;
+            }
         }
 
         &__download {
