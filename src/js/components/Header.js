@@ -1,4 +1,4 @@
-import logo from "../../assets/logo-placeholder.png";
+import logo from "../../assets/logo-image.png";
 import { Link } from "react-router-dom";
 
 function Header(props) {
