@@ -1,17 +1,17 @@
 export const SectionData = [
     {
         id: 1,
-        title: "Lorem Ipsum",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis neque, laoreet in nisl non, pellentesque consequat est. Integer non tortor scelerisque, lobortis urna vel, finibus nulla. Quisque tempus orci tortor, ac porttitor massa eleifend sed. Praesent vehicula ultrices blandit. Duis id urna at nisi varius ultricies sit amet sit amet turpis. Aliquam imperdiet ullamcorper magna, sit amet convallis tortor facilisis vitae. Suspendisse vitae volutpat augue, et pretium purus."
+        title: "Inspiration",
+        description: "Photographs have the power of telling stories about people and places that we have never met or seen. Going through the old albums at my grandparents’ house, I could see photos of them when they were my age and many memorable moments of their life such as their wedding. One problem however was the lack of colour in those pictures - they were all black-and-white. This has led me to do some research about computer-aided colourization of photos."
     },
     {
         id: 2,
-        title: "Sed et orci congue",
-        description: "Accumsan est eu, egestas arcu. Vivamus eget nisl at orci suscipit tempor in a nibh. Donec scelerisque lorem sit amet nisi porta, luctus mollis ligula aliquam."
+        title: "Concepts and Research",
+        description: "The problem considered in this project is a deep learning task in the area of computer vision. It uses a convolutional neural network to process a black-and-white image and extract its features. Subsequently, the model uses the learnt statistical dependencies to infer the colours associated with each pixel."
     },
     {
         id: 3,
-        title: "Lorem Ipsum",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis neque, laoreet in nisl non, pellentesque consequat est. Integer non tortor scelerisque, lobortis urna vel, finibus nulla. Quisque tempus orci tortor, ac porttitor massa eleifend sed. Praesent vehicula ultrices blandit. Duis id urna at nisi varius ultricies sit amet sit amet turpis. Aliquam imperdiet ullamcorper magna, sit amet convallis tortor facilisis vitae. Suspendisse vitae volutpat augue, et pretium purus."
+        title: "Training and Evaluation",
+        description: "The deep learning model has been trained for 50 iterations on the Imagenette dataset. A plethora of evaluation metrics have been considered in the assessment of the model's performance such as semantic interpretability, SMSS and PSNR ratios and a survey into the public opinion of the plausibility of the results."
     },
 ]

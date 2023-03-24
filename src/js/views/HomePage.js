@@ -14,13 +14,14 @@ function HomePage(props) {
             <div className="home-page__colour-mix-1"></div>
             <div className="home-page__description">
                 <h2>What? Who? Why?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis neque, laoreet in nisl non, pellentesque consequat est. Integer non tortor scelerisque, lobortis urna vel, finibus nulla. Quisque tempus orci tortor, ac porttitor massa eleifend sed. Praesent vehicula ultrices blandit. Duis id urna at nisi varius ultricies sit amet sit amet turpis. Aliquam imperdiet ullamcorper magna, sit amet convallis tortor facilisis vitae. Suspendisse vitae volutpat augue, et pretium purus. Duis vulputate turpis sed lobortis varius. Duis luctus consectetur orci, eget dignissim ipsum fringilla nec. Ut luctus lorem lacus.</p>
-                <p>Sed et orci congue, accumsan est eu, egestas arcu. Vivamus eget nisl at orci suscipit tempor in a nibh. Donec scelerisque lorem sit amet nisi porta, luctus mollis ligula aliquam. In hac habitasse platea dictumst. Duis semper justo ut euismod accumsan. Maecenas eu pretium odio. Etiam rhoncus nisi sed porta mattis. Donec cursus, risus a lobortis dapibus, sapien orci pulvinar enim, sed viverra felis purus ac mi. Mauris ut bibendum metus. In hac habitasse platea dictumst. Quisque imperdiet erat sed risus ullamcorper, non condimentum risus condimentum. Sed eget ipsum est.</p>
+                <p>Hello! :)</p>
+                <p>My name is Dilyan Penev and through this website you can find more about my final-year project for my Bachelor degree in Computer Science at The University of Manchester. The topic of my project is "Colourisation of black-and-white photos" and it focuses on the use of convolutional neural networks. All of the work has been done under the supervision of Professor Angelo Cangelosi.</p>
+                <p>By exploring this web application, you can learn more about the inspiration behind the project, the concepts and tools used in the development of this project and how the model was trained for solving this computer vision task. In addition, you will get the chance to test out the colourisation performance by uploading a black-and-white photo which the model will bring back to life for you!</p>
             </div>
             <div className="home-page__colour-mix-2"></div>
             <div className="home-page__acknowledgements">
                 <h2>Acknowledgements</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis neque, laoreet in nisl non, pellentesque consequat est. Integer non tortor scelerisque, lobortis urna vel, finibus nulla. Quisque tempus orci tortor, ac porttitor massa eleifend sed. Praesent vehicula ultrices blandit. Duis id urna at nisi varius ultricies sit amet sit amet turpis. Aliquam imperdiet ullamcorper magna, sit amet convallis tortor facilisis vitae. Suspendisse vitae volutpat augue, et pretium purus. Duis vulputate turpis sed lobortis varius. Duis luctus consectetur orci, eget dignissim ipsum fringilla nec. Ut luctus lorem lacus.</p>
+                <p>This project follows the "Colorful Image Colorization" method developed by Richard Zhang, Phillip Isola and Alexei A. Efros. Furthermore, it applies the specified by the authors neural network architecture and uses a portion of the code base that has been made available by the authors.</p>
             </div>
             <div className="home-page__colour-mix-3"></div>
         </div>
