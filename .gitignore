@@ -24,3 +24,7 @@ yarn-error.log*
 
 venv
 __pycache__
+
+model_weights.pth
+prior_probs.npy
+pts_in_hull.npy
