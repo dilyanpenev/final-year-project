@@ -12,6 +12,6 @@ export const SectionData = [
     {
         id: 3,
         title: "Training and Evaluation",
-        description: "The deep learning model has been trained for 50 iterations on the Imagenette dataset. A plethora of evaluation metrics have been considered in the assessment of the model's performance such as semantic interpretability, SMSS and PSNR ratios and a survey into the public opinion of the plausibility of the results."
+        description: "The deep learning model has been trained for 10 iterations on the Imagenette dataset. A plethora of evaluation metrics have been considered in the assessment of the model's performance such as semantic interpretability, SMSS and PSNR ratios and a survey into the public opinion of the plausibility of the results."
     },
 ]
